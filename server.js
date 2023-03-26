@@ -1,5 +1,5 @@
 require('dotenv').config()
-
+const {PORT,OPEN_API_KEY} =process.env
 
 const express = require("express");
 
@@ -13,7 +13,7 @@ const { Configuration, OpenAIApi } = require("openai");
 
 const configuration = new Configuration({
 
-  apiKey: process.env.OPEN_API_KEY,
+  apiKey: OPEN_API_KEY,
 
 
 });
