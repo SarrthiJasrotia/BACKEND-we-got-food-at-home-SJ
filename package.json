@@ -143,13 +143,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SarrthiJasrotia/BACKEND-we-got-food-at-home.git"
-  },
+  
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SarrthiJasrotia/BACKEND-we-got-food-at-home/issues"
-  }
+  "license": "ISC"
+  
 }
